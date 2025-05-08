@@ -66,7 +66,6 @@ namespace Consultorios_medicos.Presentacion
             textBox_Nombre = new TextBox();
             label1 = new Label();
             textBox_Cedula = new TextBox();
-            label_Cedula = new Label();
             button1 = new Button();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
@@ -179,16 +178,6 @@ namespace Consultorios_medicos.Presentacion
             textBox_Cedula.Size = new Size(227, 23);
             textBox_Cedula.TabIndex = 33;
             // 
-            // label_Cedula
-            // 
-            label_Cedula.AutoSize = true;
-            label_Cedula.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label_Cedula.Location = new Point(35, 126);
-            label_Cedula.Name = "label_Cedula";
-            label_Cedula.Size = new Size(61, 21);
-            label_Cedula.TabIndex = 32;
-            label_Cedula.Text = "Cédula";
-            // 
             // button1
             // 
             button1.Location = new Point(394, 127);
@@ -248,7 +237,6 @@ namespace Consultorios_medicos.Presentacion
             Controls.Add(textBox_Nombre);
             Controls.Add(label1);
             Controls.Add(textBox_Cedula);
-            Controls.Add(label_Cedula);
             Controls.Add(button_Guardar);
             Name = "Form_ActualizarMedico";
             Text = "Form_ActualizarMedico";
@@ -272,7 +260,6 @@ namespace Consultorios_medicos.Presentacion
         private TextBox textBox_Nombre;
         private Label label1;
         private TextBox textBox_Cedula;
-        private Label label_Cedula;
         private Button button1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
