@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fjaS7paotKg=",
+  "dgSpecHash": "HA0BPedTI/c=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Consultorios_medicos\\Consultorios_medicos\\Consultorios_medicos.csproj",
+  "projectFilePath": "D:\\consultorios_medicos\\consultorios_medicos\\Consultorios_medicos\\Consultorios_medicos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\57304\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\57304\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
