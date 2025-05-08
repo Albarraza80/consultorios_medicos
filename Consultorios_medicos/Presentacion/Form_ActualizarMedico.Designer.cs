@@ -1,4 +1,6 @@
-﻿namespace Consultorios_medicos.Presentacion
+﻿using Consultorios_medicos.Entidades;
+
+namespace Consultorios_medicos.Presentacion
 {
     partial class Form_ActualizarMedico
     {
@@ -18,6 +20,29 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        private P_medico ObtenerMedicoDesdeFormulario()
+        {
+            return new P_medico
+            {
+                nombre = textBox_Nombre.Text,
+                cedula = int.Parse(textBox_Cedula.Text),
+                especialidad = (int)comboBox_Especialidad.SelectedValue,
+                consultorio = int.Parse(textBox_Consultorio.Text),
+                telefono = textBox_Telefono.Text,
+                correo = textBox_Correo.Text
+            };
+        }
+
+        private void LimpiarFormulario()
+        {
+            comboBox_Especialidad.Text = "";
+            textBox_Correo.Text = "";
+            textBox_Telefono.Text = "";
+            textBox_Nombre.Text = "";
+            textBox_Cedula.Text = "";
+            textBox_Consultorio.Text = "";
         }
 
         #region Windows Form Designer generated code

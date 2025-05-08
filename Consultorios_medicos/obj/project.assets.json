@@ -1615,11 +1615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Consultorios_medicos\\Consultorios_medicos\\Consultorios_medicos.csproj",
+      "projectUniqueName": "D:\\consultorios_medicos\\consultorios_medicos\\Consultorios_medicos\\Consultorios_medicos.csproj",
       "projectName": "Consultorios_medicos",
-      "projectPath": "D:\\Documentos\\Consultorios_medicos\\Consultorios_medicos\\Consultorios_medicos.csproj",
+      "projectPath": "D:\\consultorios_medicos\\consultorios_medicos\\Consultorios_medicos\\Consultorios_medicos.csproj",
       "packagesPath": "C:\\Users\\57304\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Consultorios_medicos\\Consultorios_medicos\\obj\\",
+      "outputPath": "D:\\consultorios_medicos\\consultorios_medicos\\Consultorios_medicos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

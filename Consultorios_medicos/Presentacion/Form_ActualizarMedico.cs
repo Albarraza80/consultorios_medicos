@@ -47,24 +47,16 @@ namespace Consultorios_medicos.Presentacion
 
         private void button_Guardar_Click(object sender, EventArgs e)
         {
-            P_medico medico = new P_medico();
-            medico.nombre = textBox_Nombre.Text;
-            medico.cedula = int.Parse(textBox_Cedula.Text);
-            medico.especialidad = (int)comboBox_Especialidad.SelectedValue;
-            medico.consultorio = int.Parse(textBox_Consultorio.Text);
-            medico.telefono = textBox_Telefono.Text;
-            medico.correo = textBox_Correo.Text;
+         
+            P_medico medico = ObtenerMedicoDesdeFormulario();
 
             Medico_DAO medico_DAO = new Medico_DAO();
             medico_DAO.Actualizar_medico(medico);
 
             MessageBox.Show("Paciente Actualizado");
 
+            LimpiarFormulario();
 
-            comboBox_Especialidad.Text = "";
-            textBox_Correo.Text = "";
-            textBox_Telefono.Text = "";
-            textBox_Nombre.Text = "";
         }
 
         private void comboBox_Especialidad_SelectedIndexChanged(object sender, EventArgs e)
