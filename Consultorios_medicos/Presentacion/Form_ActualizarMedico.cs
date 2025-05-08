@@ -53,7 +53,7 @@ namespace Consultorios_medicos.Presentacion
             Medico_DAO medico_DAO = new Medico_DAO();
             medico_DAO.Actualizar_medico(medico);
 
-            MessageBox.Show("Paciente Actualizado");
+            MessageBox.Show("Médico Actualizado");
 
             LimpiarFormulario();
 
